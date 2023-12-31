@@ -49,9 +49,9 @@ Run these commands:
 
 
 
-•	Jenkins setup: https://www.trainwithshubham.com/blog/install-jenkins-on-aws
+#	Jenkins setup: https://www.trainwithshubham.com/blog/install-jenkins-on-aws
 
-•	https://pkg.jenkins.io/
+#	https://pkg.jenkins.io/
 
 
 
