@@ -42,10 +42,12 @@ Run these commands:
 23)	sudo usermod -a -G docker $USER
 24)	docker run -d --name node-todo-app -p 8000:8000 todo-node-app
 25)	Got to jenkins job
-26)	Execute shell 
-27)	docker build . -t node-app-todo
-28)	docker run -d --name node-app-container -p 8000:8000 node-app-todo
-29)	sudo usermod -a -G docker jenkins
+26)	Execute shell
+	 docker stop node-todo-app
+  docker rm node-todo-app
+28)	docker build . -t node-app-todo
+29)	docker run -d --name node-app-container -p 8000:8000 node-app-todo
+30)	sudo usermod -a -G docker jenkins
 
 
 
