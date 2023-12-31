@@ -16,7 +16,7 @@ Run these commands:
 
 
 # Live DevOps Project for Resume - Jenkins CICD with GitHub Integration (Notes)
-
+ 
 1)	Create AWS EC2 instance
 2)	sudo apt update
 3)	    3  sudo apt install openjdk-11-jre
